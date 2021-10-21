@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="NeYzj4" name="guiTut1" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="NDbB79" name="guiTut1">
+    <GROUP id="{30E61C42-1B97-3851-038F-19906007FA1D}" name="Source">
+      <FILE id="RC8gSW" name="GrassComponent.cpp" compile="1" resource="0"
+            file="Source/GrassComponent.cpp"/>
+      <FILE id="Bl8oax" name="GrassComponent.h" compile="0" resource="0"
+            file="Source/GrassComponent.h"/>
+      <FILE id="td3jom" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="yale3c" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="werfMN" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="fBwn3y" name="RoofComponent.cpp" compile="1" resource="0"
+            file="Source/RoofComponent.cpp"/>
+      <FILE id="Phy6hr" name="RoofComponent.h" compile="0" resource="0" file="Source/RoofComponent.h"/>
+      <FILE id="uIab7v" name="WallComponent.cpp" compile="1" resource="0"
+            file="Source/WallComponent.cpp"/>
+      <FILE id="wtolmD" name="WallComponent.h" compile="0" resource="0" file="Source/WallComponent.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="guiTut1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="guiTut1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
